@@ -1,0 +1,31 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: rgb(159, 189, 243);
+    width: 80vw;
+    height: 30vh;
+}
+h1 {
+    color: darkblue;
+}
+
+.destaque{
+    background-color: darkgreen;
+    font-size: 17px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-bottom: 15px;
+}
+
+#text{
+    background-color: darkolivegreen;
+    font-weight: bold;
+    padding: 10px 20px 5px 10px;
+}
+
+label.center {
+    font-size: 22px;
+    color: darkorchid;
+    font-weight: bolder;
+}
