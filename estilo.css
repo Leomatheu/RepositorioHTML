@@ -29,3 +29,47 @@ label.center {
     color: darkorchid;
     font-weight: bolder;
 }
+
+/* Posicionamentos */
+
+/* posicionamento estático */
+.padrao{
+    border: 1px solid black;
+}
+
+/* posicionamento relativo ao componente anterior */
+.relativo{
+    border: 1px solid black;
+    position: relative;
+    top: 10px;
+    left: 50px;
+
+}
+
+/* absoluto com a tela */
+.absolute{
+    border: 1px solid black;
+    position: absolute;
+    top: 30px;
+}
+
+/* posicionamento fixo na tela */
+.fixed{
+    border: 1px solid black;
+    position: fixed;
+    background-color: chartreuse;
+    top: 30px;
+}
+
+.left{
+    border: 1px solid black;
+    float: left;
+    height: 100vh;
+    width: 300px;
+    background-color: darkorange;
+}
+
+.main{
+    height: 100vh;
+}
+
